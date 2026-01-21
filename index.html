@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>كوكيز ريم</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>ريم كوكيز🍪  </h1>
+    <h2>كوكيز منزلي مخبوز بحب</h2>
+  </header>
+
+  <section class="products">
+    <h2>القائمة</h2>
+
+    <div class="product">
+      <h3>كلاسيك كوكيز</h3>
+      <p>8 SAR</p>
+      <button onclick="addToCart('كلاسيك كوكيز', 8)">
+      إضافة للسلة
+</a>
+    </div>
+
+    <div class="product">
+      <h3>سمورز كوكيز</h3>
+      <p>10 SAR</p>
+         <button onclick="addToCart('سمورز كوكيز', 10)">
+      إضافة للسلة
+  </a>
+    </div>
+
+
+    <div class="product">
+      <h3>بودينغ كوكيز كوب</h3>
+      <p>18 SAR</p>
+          <button onclick="addToCart('بودينغ كوكيز كوب', 18)">
+      إضافة للسلة
+  </a>
+    </div>
+
+    <div class="product">
+      <h3>كب كوكيز</h3>
+      <p>4 SAR</p>
+        <button onclick="addToCart('كب كوكيز', 4)">
+      إضافة للسلة
+ </a>
+    </div>
+
+    <div class="product">
+      <h3>سخان كوكيز صغير</h3>
+      <p>30 SAR</p>
+         <button onclick="addToCart('سخان كوكيز صغير', 30)">
+      إضافة للسلة
+  </a>
+    </div>
+
+
+    <div class="product">
+      <h3>سخان كوكيز وسط</h3>
+      <p>48 SAR</p>
+         <button onclick="addToCart('سخان كوكيز وسط', 48)">
+      إضافة للسلة
+</a>
+    </div>
+
+
+    <div class="product">
+      <h3>سخان كوكيز كبير</h3>
+      <p>85 SAR</p>
+        <button onclick="addToCart('سخان كوكيز كبير', 85)">
+      إضافة للسلة
+ </a>
+    </div>
+
+    <div class="product">
+      <h3>كيكة كوكيز صغيرة</h3>
+      <p>35 SAR</p>
+       <button onclick="addToCart('كيكة كوكيز صغيرة', 35)">
+      إضافة للسلة
+   </a>
+    </div>
+
+
+    <div class="product">
+      <h3>كيكة كوكيز وسط</h3>
+      <p>55 SAR</p>
+        <button onclick="addToCart('كيكة كوكيز وسط', 55)">
+      إضافة للسلة
+ </a>
+    </div>
+
+
+  </section>
+
+<section class="cart">
+  <h2>السلة 🛒</h2>
+  <div id="cart-items"></div>
+
+  <button class="order" onclick="orderWhatsApp()">اطلب عبر الواتساب</button>
+  <button class="clear" onclick="clearCart()">حذف كل ما بالسلة</button>
+</section>
+
+  <footer>
+    <p>الطلب عبر الواتساب • Tiktok: @reem_cookies</p>
+  </footer>
+<script src="script.js"></script>
+
+</body>
+
+</html>
